@@ -1,0 +1,49 @@
+name: Suggest profile activity updates
+
+on:
+  schedule:
+    - cron: '35 6 * * 1' # Weekly; UTC, shifts with daylight saving time in Germany
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  propose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Run local tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Collect merged pull requests and recently active repositories
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_activity.py
+
+      - name: Suggest README changes as a draft PR
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          add-paths: README.md
+          branch: automation/profile-activity
+          delete-branch: true
+          commit-message: 'docs: update GitHub profile activity'
+          title: 'docs: refresh GitHub profile activity'
+          body: |
+            This automated PR refreshes **only** the activity block in the profile README.
+
+            Sources: public original repositories and merged upstream pull requests from GitHub.
+            It does not edit the curated project descriptions or other manually written sections.
+
+            Please review the links, dates and descriptions before merging.
+          draft: true
