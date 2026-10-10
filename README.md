@@ -121,6 +121,12 @@ I also explore and adapt existing software through [forks and experiments](https
 
 A small, well-documented fix that helps real people can be just as valuable as a big new project.
 
+## ❤️ Support my open-source work
+
+I develop and maintain these projects in my spare time and share them openly. If you find my work useful, you can support ongoing maintenance through GitHub Sponsors. Sponsoring is entirely optional — my open-source projects remain free to use.
+
+[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor_on_GitHub-EA4AAA?style=flat-square&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/Manantra)
+
 ---
 
 <p align="center">
