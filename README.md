@@ -89,11 +89,25 @@ One of my favorite parts of building is contributing improvements **back to the 
 <!-- PROFILE_ACTIVITY:START -->
 ### Recently merged upstream contributions
 
-Recent upstream contributions will be populated by the scheduled GitHub workflow after setup.
+Automatically gathered from my merged pull requests in other people's repositories.
+
+- **[Moonfin-Client/Roku](https://github.com/Moonfin-Client/Roku)** — [Fix Seerr JSON escaping for Windows root folders · #301](https://github.com/Moonfin-Client/Roku/pull/301) · merged 2026-10-11
+- **[Moonfin-Client/Roku](https://github.com/Moonfin-Client/Roku)** — [Keep remote detail actions on the item server · #286](https://github.com/Moonfin-Client/Roku/pull/286) · merged 2026-09-26
+- **[Moonfin-Client/Roku](https://github.com/Moonfin-Client/Roku)** — [Fix remote audio playback context · #285](https://github.com/Moonfin-Client/Roku/pull/285) · merged 2026-09-26
+- **[cubinet-code/ha-parqet-companion](https://github.com/cubinet-code/ha-parqet-companion)** — [feat: support multiple Parqet accounts · #7](https://github.com/cubinet-code/ha-parqet-companion/pull/7) · merged 2026-07-29
+- **[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)** — [Respect existing installPath and plugins.load.paths in installer · #1116](https://github.com/thedotmack/claude-mem/pull/1116) · merged 2026-02-16
+- **[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)** — [Fix installer overwriting package.json and losing openclaw.extensions · #1113](https://github.com/thedotmack/claude-mem/pull/1113) · merged 2026-02-16
+- **[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)** — [Fix command handlers to return { text } per OpenClaw plugin API · #1115](https://github.com/thedotmack/claude-mem/pull/1115) · merged 2026-02-16
 
 ### Recently active original repositories
 
-Recently active original repositories will be populated by the scheduled GitHub workflow after setup.
+- **[ha-lens](https://github.com/Manantra/ha-lens)** — Open-source project
+- **[echo-dot-crumpet-research](https://github.com/Manantra/echo-dot-crumpet-research)** — Read-only reverse engineering research on Amazon Echo Dot 3rd Gen Refresh \(Crumpet/C78MP8\)
+- **[cortexgate](https://github.com/Manantra/cortexgate)** — A lightweight dashboard to review and curate AI-generated content summaries before saving them to your Second Brain \(Obs…
+- **[morning-dashboard](https://github.com/Manantra/morning-dashboard)** — OpenClaw Skill: Daily briefing dashboard with weather, calendar, todos, birthdays
+- **[people-crm](https://github.com/Manantra/people-crm)** — OpenClaw Skill: Personal CRM for contacts, family, friends, colleagues
+
+<sub>Automated snapshot from the GitHub API. Updates arrive as draft pull requests and are published only after review.</sub>
 <!-- PROFILE_ACTIVITY:END -->
 
 <sub>[How this section is updated](docs/AUTOMATION.md) — changes are proposed as draft PRs, never auto-merged.</sub>
