@@ -77,6 +77,14 @@ One of my favorite parts of building is contributing improvements **back to the 
 - **Merged:** [Support multiple Parqet accounts · #7](https://github.com/cubinet-code/ha-parqet-companion/pull/7)
 - **Submitted:** [Optimize API requests and cache calendar activity · #10](https://github.com/cubinet-code/ha-parqet-companion/pull/10) and [localize cards in German · #11](https://github.com/cubinet-code/ha-parqet-companion/pull/11)
 
+### 🐒 [NZB Monkey Go](https://github.com/Tensai75/nzb-monkey-go) · macOS compatibility
+
+**Tested on Apple Silicon (M4):** Validated the macOS `nzblnk://` link-handling workflow through to SABnzbd and helped troubleshoot a local-network permission issue.
+
+**Proposed follow-up improvements** in the [discussion of upstream PR #47](https://github.com/Tensai75/nzb-monkey-go/pull/47#issuecomment-6233690040): a macOS Local Network permission description, safer logging to avoid exposing NZBLNK passwords and API keys, an HTTP error regression test, and guidance for preserving configuration during app upgrades.
+
+*Status: Tested locally and shared as an upstream patch; not a separately authored or merged pull request.*
+
 ### 🤖 Other upstream proposals
 
 - **[Hermes Agent](https://github.com/NousResearch/hermes-agent):** [Serialize concurrent dependency installs · #84766](https://github.com/NousResearch/hermes-agent/pull/84766) and [scope Kanban tool availability to agent context · #84816](https://github.com/NousResearch/hermes-agent/pull/84816)
