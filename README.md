@@ -6,91 +6,81 @@
 
 **Educator by profession. Builder by curiosity.**
 
-I build practical tools, untangle complicated systems, and contribute to open source.
+I build practical software, make complex technology easier to understand, and contribute improvements upstream.
 
-[![Projects](https://img.shields.io/badge/Explore_projects-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Manantra?tab=repositories)
-[![Contributions](https://img.shields.io/badge/Upstream_PRs-0969DA?style=flat-square&logo=github&logoColor=white)](https://github.com/pulls?q=is%3Apr+author%3AManantra)
+[![Featured projects](https://img.shields.io/badge/Featured_projects-181717?style=flat-square&logo=github&logoColor=white)](#-featured-projects)
+[![Open-source contributions](https://img.shields.io/badge/Upstream_contributions-0969DA?style=flat-square&logo=github&logoColor=white)](#-open-source-contributions)
+[![Latest activity](https://img.shields.io/badge/Latest_activity-0D9488?style=flat-square&logo=githubactions&logoColor=white)](#-latest-github-activity)
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-EA4AAA?style=flat-square&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/Manantra)
 
 </div>
 
-## 👋 Hi, I'm Daniel
+## 👋 About me
 
-I work in **education and school social work** in Germany. Outside of that, I enjoy building software that solves everyday problems — especially where **AI, Home Assistant, automation, and self-hosted tools** meet.
+I work in **education and school social work** in Germany. Outside of that, I build practical tools at the intersection of **AI, Home Assistant, automation, and self-hosted software**.
 
-My favorite projects make complex systems **easier to understand**, repetitive work **less tedious**, and technology **more useful without taking control away from its users**. I build my own tools, but I also enjoy making the open-source projects I use a little better.
+I care about useful interfaces, reliable workflows, clear documentation, and technology that **keeps people in control**. I maintain my own projects and send fixes upstream to the open-source tools I use.
+
+> Build useful things. Make them understandable. Keep people in control.
 
 ## 🚀 Featured projects
 
-These are projects and research efforts I maintain under **Manantra** — not just forks of someone else's code.
+Independent projects and research I maintain under **Manantra** (not merely forks).
 
-### 🏠 [HA Lens](https://github.com/Manantra/ha-lens) · Home Assistant automation insights
+<p align="center">
+  <a href="https://github.com/Manantra/ha-lens"><img src="https://raw.githubusercontent.com/Manantra/ha-lens/main/assets/ha-lens-logo.png" alt="HA Lens project logo" width="160" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Manantra/cortexgate"><img src="https://raw.githubusercontent.com/Manantra/cortexgate/main/docs/flow-diagram.jpg" alt="CortexGate content review flow diagram" width="330" /></a>
+</p>
 
-**See what an automation does, why it runs, and which path it takes.**
+| Project | What it helps with |
+| :-- | :-- |
+| 🏠 **[HA Lens](https://github.com/Manantra/ha-lens)**<br><sub>TypeScript · React · Home Assistant</sub> | **Understand Home Assistant automations** through read-only flow graphs, execution paths, entity references, and the latest execution trace — without changing or running automations. |
+| 🧠 **[CortexGate](https://github.com/Manantra/cortexgate)**<br><sub>JavaScript · PWA · Obsidian</sub> | **Review AI-generated summaries** in a mobile-friendly dashboard before deciding what belongs in an Obsidian knowledge base. |
+| 🔬 **[Echo Dot / Crumpet Research](https://github.com/Manantra/echo-dot-crumpet-research)**<br><sub>Firmware analysis · Python · Research notes</sub> | **Investigate the Echo Dot 3rd Gen Refresh** using documented, read-only firmware and boot-chain analysis, with verified findings separated from hypotheses. No confirmed unlock is claimed. |
 
-A read-only visualizer and analyzer that turns Home Assistant automation YAML into understandable flow graphs, possible execution paths, entity references, and diagnostic insights. Its Home Assistant companion can also display the latest execution trace — **without changing or executing automations**.
+**Smaller everyday tools:** [Morning Dashboard](https://github.com/Manantra/morning-dashboard) (daily briefings from weather, calendar, tasks, and birthdays) · [People CRM](https://github.com/Manantra/people-crm) (personal contact and relationship management in OpenClaw).
 
-`TypeScript` · `React` · `Home Assistant` · `YAML analysis`
-
-### 🧠 [CortexGate](https://github.com/Manantra/cortexgate) · AI content, with a human checkpoint
-
-A mobile-friendly dashboard for reviewing and curating **AI-generated summaries** before saving them to an **Obsidian** knowledge base. Built around a simple idea: automate the collection, keep a person in charge of what gets saved.
-
-`JavaScript` · `PWA` · `Obsidian` · `OpenClaw`
-
-### 🔬 [Echo Dot / Crumpet Research](https://github.com/Manantra/echo-dot-crumpet-research) · Evidence-led reverse engineering
-
-Public, **read-only research** into the Echo Dot 3rd Gen Refresh (Crumpet): firmware structure, boot-chain behavior, and hardware-specific constraints. The documentation distinguishes **verified findings from hypotheses**; it does not claim an established unlock or root method.
-
-`Python` · `Firmware research` · `Documentation`
-
-### ☀️ Smaller tools for everyday workflows
-
-- **[Morning Dashboard](https://github.com/Manantra/morning-dashboard)** — an OpenClaw skill that combines weather, calendar events, tasks, and birthdays into a daily briefing.
-- **[People CRM](https://github.com/Manantra/people-crm)** — an OpenClaw skill for organizing personal contacts, relationships, notes, and birthdays.
+[Browse all repositories](https://github.com/Manantra?tab=repositories)
 
 ## 🤝 Open-source contributions
 
-One of my favorite parts of building is contributing improvements **back to the original projects**. Below are selected upstream pull requests, with merged contributions and other proposals distinguished.
+I contribute fixes to the projects I use. **Merged pull requests are explicitly distinguished from open or closed-but-unmerged proposals.** A fork alone is not counted as an upstream contribution.
 
-### 🌙 [Moonfin](https://github.com/Moonfin-Client/Roku) · Roku client for Jellyfin & Emby
+### 🌙 [Moonfin for Roku](https://github.com/Moonfin-Client/Roku) · Jellyfin & Emby client
 
-**Selected merged pull requests** across server compatibility, playback, and multi-server behavior:
+Selected **merged upstream pull requests**:
 
-| Area | Merged contributions |
+| Focus | Contributions |
 | :-- | :-- |
-| **Emby support** | [Server integration, Connect login, and playback compatibility · #277](https://github.com/Moonfin-Client/Roku/pull/277) |
-| **Jellyfin & playback** | [Music routes and remote trailers · #281](https://github.com/Moonfin-Client/Roku/pull/281), [series/season resume · #282](https://github.com/Moonfin-Client/Roku/pull/282), [Live TV remux retries · #283](https://github.com/Moonfin-Client/Roku/pull/283) |
-| **Correct server context** | [Video playback · #284](https://github.com/Moonfin-Client/Roku/pull/284), [audio playback · #285](https://github.com/Moonfin-Client/Roku/pull/285), [detail actions · #286](https://github.com/Moonfin-Client/Roku/pull/286) |
+| **Emby compatibility** | [Server support, Connect login & playback · #277](https://github.com/Moonfin-Client/Roku/pull/277) |
+| **Jellyfin & playback** | [Music routes & remote trailers · #281](https://github.com/Moonfin-Client/Roku/pull/281) · [Resume playback · #282](https://github.com/Moonfin-Client/Roku/pull/282) · [Live TV retries · #283](https://github.com/Moonfin-Client/Roku/pull/283) |
+| **Multi-server correctness** | [Video · #284](https://github.com/Moonfin-Client/Roku/pull/284) · [Audio · #285](https://github.com/Moonfin-Client/Roku/pull/285) · [Detail actions · #286](https://github.com/Moonfin-Client/Roku/pull/286) |
+| **Seerr interoperability** | [Fix Windows root-path JSON escaping · #301](https://github.com/Moonfin-Client/Roku/pull/301) |
 
-*Also submitted:* [Windows-root-path handling for Seerr · #301](https://github.com/Moonfin-Client/Roku/pull/301) and a [season-display toggle · #302](https://github.com/Moonfin-Client/Roku/pull/302).
+Other proposals: [Emby settings labels · #287](https://github.com/Moonfin-Client/Roku/pull/287) (**open**) · [Season-display toggle · #302](https://github.com/Moonfin-Client/Roku/pull/302) (**closed without merge**).
 
-### 🧠 [claude-mem](https://github.com/thedotmack/claude-mem) · Installer and OpenClaw compatibility
+### 🧠 [claude-mem](https://github.com/thedotmack/claude-mem) · OpenClaw integration
 
-**Merged pull requests** helping keep integrations reliable:
+**Merged:** [Preserve extension metadata · #1113](https://github.com/thedotmack/claude-mem/pull/1113) · [Fix command-handler responses · #1115](https://github.com/thedotmack/claude-mem/pull/1115) · [Respect installer/plugin paths · #1116](https://github.com/thedotmack/claude-mem/pull/1116).
 
-- [Preserve `openclaw.extensions` during installation · #1113](https://github.com/thedotmack/claude-mem/pull/1113)
-- [Use the expected OpenClaw command-handler response · #1115](https://github.com/thedotmack/claude-mem/pull/1115)
-- [Respect existing installer and plugin-load paths · #1116](https://github.com/thedotmack/claude-mem/pull/1116)
+### 🏡 [Parqet Companion](https://github.com/cubinet-code/ha-parqet-companion) · Home Assistant
 
-### 🏡 [Parqet Companion](https://github.com/cubinet-code/ha-parqet-companion) · Home Assistant portfolio integration
+**Merged:** [Multiple Parqet accounts · #7](https://github.com/cubinet-code/ha-parqet-companion/pull/7).
 
-- **Merged:** [Support multiple Parqet accounts · #7](https://github.com/cubinet-code/ha-parqet-companion/pull/7)
-- **Submitted:** [Optimize API requests and cache calendar activity · #10](https://github.com/cubinet-code/ha-parqet-companion/pull/10) and [localize cards in German · #11](https://github.com/cubinet-code/ha-parqet-companion/pull/11)
+**Open proposals:** [Reduce duplicate API requests and cache calendar activity · #10](https://github.com/cubinet-code/ha-parqet-companion/pull/10) · [German card localization · #11](https://github.com/cubinet-code/ha-parqet-companion/pull/11).
 
-### 🐒 [NZB Monkey Go](https://github.com/Tensai75/nzb-monkey-go) · macOS compatibility
+<details>
+<summary><strong>More open-source collaboration and proposals</strong></summary>
 
-**Tested on Apple Silicon (M4):** Validated the macOS `nzblnk://` link-handling workflow through to SABnzbd and helped troubleshoot a local-network permission issue.
+- **[Hermes Agent](https://github.com/NousResearch/hermes-agent):** [Serialize concurrent dependency installs · #84766](https://github.com/NousResearch/hermes-agent/pull/84766) and [scope Kanban tool availability to agent context · #84816](https://github.com/NousResearch/hermes-agent/pull/84816) — submitted, not merged.
+- **[Hermex](https://github.com/uzairansaruzi/hermex):** [Transcript voice bubbles · #44](https://github.com/uzairansaruzi/hermex/pull/44) — closed without merge.
+- **[NZB Monkey Go](https://github.com/Tensai75/nzb-monkey-go):** Tested macOS `nzblnk://` link handling on Apple Silicon (M4) and shared [suggestions for permissions, safer logging, tests, and configuration updates](https://github.com/Tensai75/nzb-monkey-go/pull/47#issuecomment-6233690040). Local testing and discussion, **not** a separately authored or merged PR.
+- **Moonfin:** [Windows path variant · #303](https://github.com/Moonfin-Client/Roku/pull/303) — closed without merge.
 
-**Proposed follow-up improvements** in the [discussion of upstream PR #47](https://github.com/Tensai75/nzb-monkey-go/pull/47#issuecomment-6233690040): a macOS Local Network permission description, safer logging to avoid exposing NZBLNK passwords and API keys, an HTTP error regression test, and guidance for preserving configuration during app upgrades.
+</details>
 
-*Status: Tested locally and shared as an upstream patch; not a separately authored or merged pull request.*
-
-### 🤖 Other upstream proposals
-
-- **[Hermes Agent](https://github.com/NousResearch/hermes-agent):** [Serialize concurrent dependency installs · #84766](https://github.com/NousResearch/hermes-agent/pull/84766) and [scope Kanban tool availability to agent context · #84816](https://github.com/NousResearch/hermes-agent/pull/84816)
-- **[Hermex](https://github.com/uzairansaruzi/hermex):** [Display transcript audio as voice bubbles · #44](https://github.com/uzairansaruzi/hermex/pull/44) *(submitted; closed without merge as of October 2026)*
-
-<sub>The hand-picked links above reflect contributions verified in October 2026. The automatically generated section below tracks newly merged PRs.</sub>
+<sub>Hand-picked statuses checked on 26 October 2026; links lead to the individual pull requests. The section below is refreshed separately from GitHub API data.</sub>
 
 ## 📡 Latest GitHub activity
 
@@ -118,9 +108,9 @@ Automatically gathered from my merged pull requests in other people's repositori
 <sub>Automated snapshot from the GitHub API. Updates arrive as draft pull requests and are published only after review.</sub>
 <!-- PROFILE_ACTIVITY:END -->
 
-<sub>[How this section is updated](docs/AUTOMATION.md) — changes are proposed as draft PRs, never auto-merged.</sub>
+<sub>[How this section is updated](docs/AUTOMATION.md) — the workflow proposes draft PRs for review; it does not auto-merge them.</sub>
 
-## 🧰 Technologies & interests
+## 🧰 Tools & interests
 
 <p>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
@@ -133,26 +123,18 @@ Automatically gathered from my merged pull requests in other people's repositori
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
 </p>
 
-**Things I'm drawn to:** smart-home troubleshooting, visual explanations, AI-assisted workflows, knowledge management, local-first software, and useful tools that can be self-hosted.
-
-I also explore and adapt existing software through [forks and experiments](https://github.com/Manantra?tab=repositories). **A fork on its own isn't an upstream contribution** — that's why the section above links to actual pull requests.
-
-## 💡 My approach
-
-> Build useful things. Make them understandable. Keep people in control.
-
-A small, well-documented fix that helps real people can be just as valuable as a big new project.
+**Interested in:** smart-home troubleshooting, AI-assisted workflows, visual explanations, local-first software, knowledge management, and self-hosting.
 
 ## ❤️ Support my open-source work
 
-I develop and maintain these projects in my spare time and share them openly. If you find my work useful, you can support ongoing maintenance through GitHub Sponsors. Sponsoring is entirely optional — my open-source projects remain free to use.
+I build and maintain these projects in my spare time. If my work is helpful, you can support it through [GitHub Sponsors](https://github.com/sponsors/Manantra). Sponsorship is optional; my open-source projects remain free to use.
 
 [![Sponsor on GitHub](https://img.shields.io/badge/Sponsor_on_GitHub-EA4AAA?style=flat-square&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/Manantra)
 
 ---
 
 <p align="center">
-  <strong>Thanks for stopping by.</strong><br />
-  <a href="https://github.com/Manantra?tab=repositories">Explore my repositories</a> ·
-  <a href="https://github.com/pulls?q=is%3Apr+author%3AManantra">Browse my pull requests</a>
+  <strong>Thanks for stopping by!</strong><br />
+  <a href="https://github.com/Manantra?tab=repositories">Explore projects</a> ·
+  <a href="https://github.com/pulls?q=is%3Apr+author%3AManantra">View upstream PRs</a>
 </p>
