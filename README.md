@@ -99,9 +99,9 @@ Automatically gathered from my merged pull requests in other people's repositori
 
 ### Recently active original repositories
 
-- **[ha-lens](https://github.com/Manantra/ha-lens)** — Open-source project
 - **[echo-dot-crumpet-research](https://github.com/Manantra/echo-dot-crumpet-research)** — Read-only reverse engineering research on Amazon Echo Dot 3rd Gen Refresh \(Crumpet/C78MP8\)
 - **[cortexgate](https://github.com/Manantra/cortexgate)** — A lightweight dashboard to review and curate AI-generated content summaries before saving them to your Second Brain \(Obs…
+- **[ha-lens](https://github.com/Manantra/ha-lens)** — Open-source project
 - **[morning-dashboard](https://github.com/Manantra/morning-dashboard)** — OpenClaw Skill: Daily briefing dashboard with weather, calendar, todos, birthdays
 - **[people-crm](https://github.com/Manantra/people-crm)** — OpenClaw Skill: Personal CRM for contacts, family, friends, colleagues
 
