@@ -99,11 +99,11 @@ Automatically gathered from my merged pull requests in other people's repositori
 
 ### Recently active original repositories
 
-- **[ha-lens](https://github.com/Manantra/ha-lens)** — Open-source project
+- **[home-assistant-bresser-rex](https://github.com/Manantra/home-assistant-bresser-rex)** — Unofficial Home Assistant integration for BRESSER REX and FlashForge Adventurer III 3D printers.
 - **[echo-dot-crumpet-research](https://github.com/Manantra/echo-dot-crumpet-research)** — Read-only reverse engineering research on Amazon Echo Dot 3rd Gen Refresh \(Crumpet/C78MP8\)
+- **[ha-lens](https://github.com/Manantra/ha-lens)** — Open-source project
 - **[cortexgate](https://github.com/Manantra/cortexgate)** — A lightweight dashboard to review and curate AI-generated content summaries before saving them to your Second Brain \(Obs…
 - **[morning-dashboard](https://github.com/Manantra/morning-dashboard)** — OpenClaw Skill: Daily briefing dashboard with weather, calendar, todos, birthdays
-- **[people-crm](https://github.com/Manantra/people-crm)** — OpenClaw Skill: Personal CRM for contacts, family, friends, colleagues
 
 <sub>Automated snapshot from the GitHub API. Updates arrive as draft pull requests and are published only after review.</sub>
 <!-- PROFILE_ACTIVITY:END -->
