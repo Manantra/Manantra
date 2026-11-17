@@ -89,9 +89,10 @@ Other proposals: [Emby settings labels · #287](https://github.com/Moonfin-Clien
 
 Automatically gathered from my merged pull requests in other people's repositories.
 
+- **[Moonfin-Client/Roku](https://github.com/Moonfin-Client/Roku)** — [Cleanup emby settings labels · #287](https://github.com/Moonfin-Client/Roku/pull/287) · merged 2026-11-14
+- **[hacs/default](https://github.com/hacs/default)** — [Adds new integration \[Manantra/ha-infuse\] · #13720](https://github.com/hacs/default/pull/13720) · merged 2026-11-09
 - **[Moonfin-Client/Roku](https://github.com/Moonfin-Client/Roku)** — [Fix Seerr JSON escaping for Windows root folders · #301](https://github.com/Moonfin-Client/Roku/pull/301) · merged 2026-10-11
 - **[Moonfin-Client/Roku](https://github.com/Moonfin-Client/Roku)** — [Keep remote detail actions on the item server · #286](https://github.com/Moonfin-Client/Roku/pull/286) · merged 2026-09-26
-- **[Moonfin-Client/Roku](https://github.com/Moonfin-Client/Roku)** — [Fix remote audio playback context · #285](https://github.com/Moonfin-Client/Roku/pull/285) · merged 2026-09-26
 - **[cubinet-code/ha-parqet-companion](https://github.com/cubinet-code/ha-parqet-companion)** — [feat: support multiple Parqet accounts · #7](https://github.com/cubinet-code/ha-parqet-companion/pull/7) · merged 2026-07-29
 - **[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)** — [Respect existing installPath and plugins.load.paths in installer · #1116](https://github.com/thedotmack/claude-mem/pull/1116) · merged 2026-02-16
 - **[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)** — [Fix installer overwriting package.json and losing openclaw.extensions · #1113](https://github.com/thedotmack/claude-mem/pull/1113) · merged 2026-02-16
@@ -99,11 +100,11 @@ Automatically gathered from my merged pull requests in other people's repositori
 
 ### Recently active original repositories
 
+- **[ha-infuse](https://github.com/Manantra/ha-infuse)** — Infuse Now Playing for Home Assistant — local playback monitoring and multi-device dashboards
 - **[ha-lens](https://github.com/Manantra/ha-lens)** — Open-source project
+- **[ha-infuse-cards](https://github.com/Manantra/ha-infuse-cards)** — Home Assistant Marketplace dashboard cards for Infuse Now Playing
+- **[home-assistant-bresser-rex](https://github.com/Manantra/home-assistant-bresser-rex)** — Unofficial Home Assistant integration for BRESSER REX and FlashForge Adventurer III 3D printers.
 - **[echo-dot-crumpet-research](https://github.com/Manantra/echo-dot-crumpet-research)** — Read-only reverse engineering research on Amazon Echo Dot 3rd Gen Refresh \(Crumpet/C78MP8\)
-- **[cortexgate](https://github.com/Manantra/cortexgate)** — A lightweight dashboard to review and curate AI-generated content summaries before saving them to your Second Brain \(Obs…
-- **[morning-dashboard](https://github.com/Manantra/morning-dashboard)** — OpenClaw Skill: Daily briefing dashboard with weather, calendar, todos, birthdays
-- **[people-crm](https://github.com/Manantra/people-crm)** — OpenClaw Skill: Personal CRM for contacts, family, friends, colleagues
 
 <sub>Automated snapshot from the GitHub API. Updates arrive as draft pull requests and are published only after review.</sub>
 <!-- PROFILE_ACTIVITY:END -->
