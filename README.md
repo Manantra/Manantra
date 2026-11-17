@@ -17,31 +17,41 @@ I build practical software, make complex technology easier to understand, and co
 
 ## 👋 About me
 
-I work in **education and school social work** in Germany. Outside of that, I build practical tools at the intersection of **AI, Home Assistant, automation, and self-hosted software**.
+I work in **education and school social work** in Germany. I also build practical software—especially **Home Assistant integrations, self-hosted tools, AI-assisted workflows, and projects that make technology more approachable**.
 
-I care about useful interfaces, reliable workflows, clear documentation, and technology that **keeps people in control**. I maintain my own projects and send fixes upstream to the open-source tools I use.
+My recent work ranges from local media playback insights and 3D-printer monitoring to automation debugging and educational experiences. I care about **clear interfaces, privacy, good documentation, and keeping people in control**. Alongside original projects, I maintain adaptations and contribute fixes to other open-source repositories.
 
 > Build useful things. Make them understandable. Keep people in control.
 
 ## 🚀 Featured projects
 
-Independent projects and research I maintain under **Manantra** (not merely forks).
+These are **original projects and independent research** maintained under Manantra—not just copies of other repositories.
 
 <p align="center">
-  <a href="https://github.com/Manantra/ha-lens"><img src="https://raw.githubusercontent.com/Manantra/ha-lens/main/assets/ha-lens-logo.png" alt="HA Lens project logo" width="160" /></a>
+  <a href="https://github.com/Manantra/ha-infuse"><img src="https://raw.githubusercontent.com/Manantra/ha-infuse/main/assets/previews/single-device.png" alt="Infuse Now Playing: Home Assistant dashboard card with fictional example media" width="340" /></a>
   &nbsp;&nbsp;
-  <a href="https://github.com/Manantra/cortexgate"><img src="https://raw.githubusercontent.com/Manantra/cortexgate/main/docs/flow-diagram.jpg" alt="CortexGate content review flow diagram" width="330" /></a>
+  <a href="https://github.com/Manantra/ha-lens"><img src="https://raw.githubusercontent.com/Manantra/ha-lens/main/assets/ha-lens-logo.png" alt="HA Lens project logo" width="155" /></a>
 </p>
 
-| Project | What it helps with |
+| Project | Why it exists |
 | :-- | :-- |
-| 🏠 **[HA Lens](https://github.com/Manantra/ha-lens)**<br><sub>TypeScript · React · Home Assistant</sub> | **Understand Home Assistant automations** through read-only flow graphs, execution paths, entity references, and the latest execution trace — without changing or running automations. |
-| 🧠 **[CortexGate](https://github.com/Manantra/cortexgate)**<br><sub>JavaScript · PWA · Obsidian</sub> | **Review AI-generated summaries** in a mobile-friendly dashboard before deciding what belongs in an Obsidian knowledge base. |
-| 🔬 **[Echo Dot / Crumpet Research](https://github.com/Manantra/echo-dot-crumpet-research)**<br><sub>Firmware analysis · Python · Research notes</sub> | **Investigate the Echo Dot 3rd Gen Refresh** using documented, read-only firmware and boot-chain analysis, with verified findings separated from hypotheses. No confirmed unlock is claimed. |
+| 📺 **[Infuse Now Playing](https://github.com/Manantra/ha-infuse)**<br><sub>Python · Home Assistant · Infuse</sub> | **Bring local Infuse playback into Home Assistant**: automatic device discovery, media-player and sensor states, playback events for automations, and built-in single-device / household dashboard cards. Reads playback status; does **not** remotely control playback. [HACS catalog inclusion](https://github.com/hacs/default/pull/13720) merged in November 2026. |
+| 🏠 **[HA Lens](https://github.com/Manantra/ha-lens)**<br><sub>TypeScript · React · Home Assistant</sub> | **Understand Home Assistant automations** via read-only YAML flow graphs, entity references, bounded execution paths, and the latest execution trace—without changing or running automations. |
+| 🖨️ **[BRESSER REX for Home Assistant](https://github.com/Manantra/home-assistant-bresser-rex)**<br><sub>Python · 3D printing · Home Assistant</sub> | **Monitor a compatible 3D printer locally** with temperature, status and progress sensors, optional camera, and LED controls. An **experimental** integration: core BRESSER REX features were tested on hardware; newer smart-plug features still need hardware validation. |
+| 🧠 **[CortexGate](https://github.com/Manantra/cortexgate)**<br><sub>JavaScript · PWA · Obsidian</sub> | **Review AI-generated summaries before filing them** in an Obsidian-compatible knowledge base. The person reviewing—not the automation—decides what gets saved. |
+| 🔬 **[Echo Dot / Crumpet Research](https://github.com/Manantra/echo-dot-crumpet-research)**<br><sub>Python · Firmware analysis · Documentation</sub> | **Investigate the Echo Dot 3rd Gen Refresh (C78MP8)** through source-linked, read-only firmware and boot-chain analysis. Verified evidence is distinguished from hypotheses; **no working root or unlock is claimed**. |
 
-**Smaller everyday tools:** [Morning Dashboard](https://github.com/Manantra/morning-dashboard) (daily briefings from weather, calendar, tasks, and birthdays) · [People CRM](https://github.com/Manantra/people-crm) (personal contact and relationship management in OpenClaw).
+**Small tools:** [Morning Dashboard](https://github.com/Manantra/morning-dashboard) (OpenClaw daily briefings) · [People CRM](https://github.com/Manantra/people-crm) (contact and relationship management).
 
-[Browse all repositories](https://github.com/Manantra?tab=repositories)
+### 🌱 Adaptations & active forks
+
+Forks are a different kind of work from original projects. I credit their maintainers and distinguish my changes from upstream releases.
+
+- **[FlüsterWelt](https://github.com/Manantra/fluesterwelt)** — a **German-language adaptation** of [Shy Safari](https://github.com/teacherdotdev/shy-safari), a calm, interactive classroom sound-level experience. Developed around accessible language, localized UI and privacy-conscious browser microphone use.
+- **[EverShelf (my fork)](https://github.com/Manantra/EverShelf)** — ongoing work based on [dadaloop82/EverShelf](https://github.com/dadaloop82/EverShelf), a self-hosted pantry manager. I'm exploring installation security, backup/restore hardening and safer release controls. **Several changes remain draft PRs in my fork—not upstream releases.**
+- **[Infuse Dashboard Cards](https://github.com/Manantra/ha-infuse-cards)** — a **legacy migration bridge**, not a second standalone product to install: the two cards are now included with [Infuse Now Playing](https://github.com/Manantra/ha-infuse).
+
+[Browse my public repositories](https://github.com/Manantra?tab=repositories)
 
 ## 🤝 Open-source contributions
 
@@ -53,12 +63,12 @@ Selected **merged upstream pull requests**:
 
 | Focus | Contributions |
 | :-- | :-- |
-| **Emby compatibility** | [Server support, Connect login & playback · #277](https://github.com/Moonfin-Client/Roku/pull/277) |
+| **Emby compatibility** | [Server support, Connect login & playback · #277](https://github.com/Moonfin-Client/Roku/pull/277) · [Settings label cleanup · #287](https://github.com/Moonfin-Client/Roku/pull/287) |
 | **Jellyfin & playback** | [Music routes & remote trailers · #281](https://github.com/Moonfin-Client/Roku/pull/281) · [Resume playback · #282](https://github.com/Moonfin-Client/Roku/pull/282) · [Live TV retries · #283](https://github.com/Moonfin-Client/Roku/pull/283) |
 | **Multi-server correctness** | [Video · #284](https://github.com/Moonfin-Client/Roku/pull/284) · [Audio · #285](https://github.com/Moonfin-Client/Roku/pull/285) · [Detail actions · #286](https://github.com/Moonfin-Client/Roku/pull/286) |
 | **Seerr interoperability** | [Fix Windows root-path JSON escaping · #301](https://github.com/Moonfin-Client/Roku/pull/301) |
 
-Other proposals: [Emby settings labels · #287](https://github.com/Moonfin-Client/Roku/pull/287) (**open**) · [Season-display toggle · #302](https://github.com/Moonfin-Client/Roku/pull/302) (**closed without merge**).
+Other proposal: [Season-display toggle · #302](https://github.com/Moonfin-Client/Roku/pull/302) (**closed without merge**).
 
 ### 🧠 [claude-mem](https://github.com/thedotmack/claude-mem) · OpenClaw integration
 
@@ -70,6 +80,12 @@ Other proposals: [Emby settings labels · #287](https://github.com/Moonfin-Clien
 
 **Open proposals:** [Reduce duplicate API requests and cache calendar activity · #10](https://github.com/cubinet-code/ha-parqet-companion/pull/10) · [German card localization · #11](https://github.com/cubinet-code/ha-parqet-companion/pull/11).
 
+### 🧩 [HACS catalog](https://github.com/hacs/default) · Home Assistant ecosystem
+
+**Merged upstream:** [Include Infuse Now Playing as an integration · #13720](https://github.com/hacs/default/pull/13720) (November 2026).
+
+The separate [cards-catalog proposal · #13721](https://github.com/hacs/default/pull/13721) closed **without merge**; the cards are now bundled with the main integration.
+
 <details>
 <summary><strong>More open-source collaboration and proposals</strong></summary>
 
@@ -80,7 +96,7 @@ Other proposals: [Emby settings labels · #287](https://github.com/Moonfin-Clien
 
 </details>
 
-<sub>Hand-picked statuses checked on 26 October 2026; links lead to the individual pull requests. The section below is refreshed separately from GitHub API data.</sub>
+<sub>Selected pull-request statuses checked on 17 November 2026. The GitHub API-backed activity below is maintained separately through review-first draft PRs.</sub>
 
 ## 📡 Latest GitHub activity
 
@@ -124,7 +140,7 @@ Automatically gathered from my merged pull requests in other people's repositori
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
 </p>
 
-**Interested in:** smart-home troubleshooting, AI-assisted workflows, visual explanations, local-first software, knowledge management, and self-hosting.
+**Interested in:** Home Assistant and smart-home troubleshooting, educational technology, local media APIs, 3D printing, AI-assisted workflows, knowledge management, privacy-conscious design, and self-hosting.
 
 ## ❤️ Support my open-source work
 
